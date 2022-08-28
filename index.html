@@ -9,8 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/venobox.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <title>Exam - 02</title>
 </head>
@@ -18,24 +20,36 @@
     
 <!-- Navbar Start -->
 
-<nav>
+
+<nav class="navbar navbar-expand-lg bg-light">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <a href="#"><img src="images/Strict.png" alt="logo"></a>
-            </div>
-            <div class="col-lg-6">
-                <ul class="d-flex justify-content-between">
-                    <li><a href="#"> Home </a></li>
-                    <li><a href="#"> About </a></li>
-                    <li><a href="#"> Service </a></li>
-                    <li><a href="#"> Portfolio </a></li>
-                    <li><a href="#"> Contact </a></li>
-                </ul>
-            </div>
+        <div class="logo">
+            <a href="#"><img src="images/Strict.png" alt="logo"></a>
         </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0" id="navbar">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
-</nav>
+  </nav>
 
 <!-- Navbar End -->
 
@@ -68,9 +82,9 @@
         </div>
     </div>
 
-    <div class="tow">
+    <div class="two">
         <div class="container">
-            <div class="row justify-content-between">
+            <div class="row justify-content-between icons">
                 <div class="col-lg-4 text-center box">
                     <div class="icon"> <i class="fa-solid fa-mobile-screen"></i> </div>
                     <h5> Optimized for all devices </h5>
@@ -111,77 +125,92 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 g-1">
+
+
+            <div class="col-lg-4 col-sm-6">
                 <div class="box">
                 <img class="w-100 img-fluid" src="images/sec2=1.jpg" alt="images">
                     <div class="overlay">
-                        <a href="#" class="s2icon"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                        <div class="venobox_icon">
+                            <a class="venobox" data-gall="gallery01" href="images/sec2=2.jpg"> <i class="fa-solid fa-magnifying-glass-plus"></i> </a>
+                        </div>
+                        <a href="#" class="s2icon"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6">
+                <div class="box">
+                <img class="w-100 img-fluid" src="images/sec2=2.jpg" alt="images">
+                    <div class="overlay">
+                        <div class="venobox_icon">
+                            <a class="venobox" data-gall="gallery01" href="images/sec2=3.jpg"> <i class="fa-solid fa-magnifying-glass-plus"></i> </a>
+                        </div>
+                        <a href="#" class="s2icon"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6">
+                <div class="box">
+                <img class="w-100 img-fluid" src="images/sec2=3.jpg" alt="images">
+                    <div class="overlay">
+                        <div class="venobox_icon">
+                            <a class="venobox" data-gall="gallery01" href="images/sec2=4.jpg"> <i class="fa-solid fa-magnifying-glass-plus"></i> </a>
+                        </div>
+                        <a href="#" class="s2icon"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6">
+                <div class="box">
+                <img class="w-100 img-fluid" src="images/sec2=4.jpg" alt="images">
+                    <div class="overlay">
+                        <div class="venobox_icon">
+                            <a class="venobox" data-gall="gallery01" href="images/sec2=5.jpg"> <i class="fa-solid fa-magnifying-glass-plus"></i> </a>
+                        </div>
+                        <a href="#" class="s2icon"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6">
+                <div class="box">
+                <img class="w-100 img-fluid" src="images/sec2=5.jpg" alt="images">
+                    <div class="overlay">
+                        <div class="venobox_icon">
+                            <a class="venobox" data-gall="gallery01" href="images/sec2=6.jpg"> <i class="fa-solid fa-magnifying-glass-plus"></i> </a>
+                        </div>
+                        <a href="#" class="s2icon"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6">
+                <div class="box">
+                <img class="w-100 img-fluid" src="images/sec2=6.jpg" alt="images">
+                    <div class="overlay">
+                        <div class="venobox_icon">
+                            <a class="venobox" data-gall="gallery01" href="images/sec2=1.jpg"> <i class="fa-solid fa-magnifying-glass-plus"></i> </a>
+                        </div>
                         <a href="#" class="s2icon"><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
             </div>
             
-            <div class="col-lg-4">
-                <div class="box">
-                <img class="w-100 img-fluid" src="images/sec2=2.jpg" alt="images">
-                    <div class="overlay">
-                        <a href="#" class="s2icon"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
-                        <a href="#" class="s2icon"><i class="fa-solid fa-link"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="box">
-                <img class="w-100 img-fluid" src="images/sec2=3.jpg" alt="images">
-                    <div class="overlay">
-                        <a href="#" class="s2icon"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
-                        <a href="#" class="s2icon"><i class="fa-solid fa-link"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row img_gap">
-                <div class="col-lg-4">
-                    <div class="box">
-                    <img class="w-100 img-fluid" src="images/sec2=4.jpg" alt="images">
-                        <div class="overlay">
-                            <a href="#" class="s2icon"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
-                            <a href="#" class="s2icon"><i class="fa-solid fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="box">
-                    <img class="w-100 img-fluid" src="images/sec2=5.jpg" alt="images">
-                        <div class="overlay">
-                            <a href="#" class="s2icon"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
-                            <a href="#" class="s2icon"><i class="fa-solid fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="box">
-                    <img class="w-100 img-fluid" src="images/sec2=6.jpg" alt="images">
-                        <div class="overlay">
-                            <a href="#" class="s2icon"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
-                            <a href="#" class="s2icon"><i class="fa-solid fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
+
+            
+
     
-            </div>
         </div>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
 
 
 <!-- Sec 02 End -->
@@ -200,7 +229,7 @@
             <div class="col-lg-6 margin">
                 <input type="name" placeholder="Full Name" class="name">
                 <input type="e-mail" placeholder="Email Address" class="name">
-                <input type="text" placeholder="Full Name" class="text">
+                <input type="text" placeholder="Message" class="text">
             </div>
             <div class="col-lg-12">
                 <a href="#">Send</a>
@@ -215,10 +244,10 @@
     <footer>
         <div class="container">
             <div class="row align-items-center justify-content-between">
-                <div class="col-lg-2">
+                <div class="col-md-4 ">
                     <p>Copyritht 2014, STRICT</p>
                 </div>
-                <div class="col-lg-2 d-flex justify-content-between">
+                <div class="col-md-4 d-flex justify-content-between logos">
                     <i class="fa-brands fa-facebook-f d-flex align-items-center justify-content-center rounded"></i>
                     <i class="fa-brands fa-twitter d-flex align-items-center justify-content-center rounded"></i>
                     <i class="fa-brands fa-google-plus-g d-flex align-items-center justify-content-center rounded"></i>
@@ -228,7 +257,10 @@
         </div>
     </footer>
 
-
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
 
 
 </body>
