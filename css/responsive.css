@@ -12,7 +12,8 @@ footer .logos{
 /* XL Start  ------------------------------------------------------------------------------------- */
 
 @media (max-width:1200px) {
-    
+
+
 }
 
 /* XL End  ------------------------------------------------------------------------------------- */
@@ -114,8 +115,6 @@ footer .logos{
         
         /* Footer End */
         
-
-
 }
 
 
@@ -232,15 +231,6 @@ footer p {
 
 @media (max-width:576px) {
     
-/* Navbar Start */
-
-nav img{
-    padding-top: 20px;
-    padding-left: 20px;
-}
-
-
-/* Navbar End */
 
 /* Banner Start */
 

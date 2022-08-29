@@ -47,11 +47,12 @@ p{
     width: 100%;
     display: block;
 }
-
-
-
 #navbar li{
-    margin-right: 60px;
+    margin-right: 47px; 
+}
+.nav-item a{
+    font-size: 24px;
+    color: #222222;
 }
 
 /* Navbar End */
